@@ -87,7 +87,7 @@ function App() {
           <SectionLabel number="01" label="Career journey" />
           <div className="career-heading"><div><h2>One path.<br /><span>Many vantage points.</span></h2><p className="heading-aside">A concise journey through<br />growth, GTM and investment.</p><div className="career-highlights"><span>Startup evaluation</span><span>Capital networks</span><span>Enterprise GTM</span><span>Key accounts</span></div></div><figure className="career-portrait"><img src="/images/Vishw.jpg" alt="Vishwajeet Raut working at his desk" /><figcaption>Building the bridge between<br />founders, capital and opportunity.</figcaption></figure></div>
           <div className="timeline">{experience.map((item) => <article className={`timeline-item ${item.current ? 'current' : ''}`} key={item.company}>
-            <div className="timeline-marker"><span /></div><div className="timeline-content"><div className="timeline-meta"><span>{item.period}</span><span>{item.location}</span></div><h3>{item.company}</h3><p className="role">{item.role}</p><p>{item.description}</p></div>
+            <div className="timeline-marker"><span /></div><div className="timeline-content"><div className="timeline-title"><h3>{item.company}</h3><span className="timeline-period">{item.period}</span></div><p className="role">{item.role}</p><div className="timeline-meta"><span>{item.location}</span></div><p>{item.description}</p></div>
           </article>)}</div>
         </div>
       </section>
