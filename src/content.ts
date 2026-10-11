@@ -68,33 +68,6 @@ export const capabilities = [
   { label: 'Execution', items: ['Pipeline development', 'Stakeholder management', 'Program coordination', 'Relationship management', 'Team leadership'] },
 ];
 
-export const work = [
-  {
-    index: '01',
-    eyebrow: 'RaiseMoney · Investment ecosystem',
-    title: 'From startup evaluation to investable momentum',
-    description: 'Creating a clearer route for promising startups to move through evaluation, ecosystem support and funding conversations within 90 days.',
-    tags: ['Startup evaluation', 'Incubation', 'Funding network'],
-    accent: 'lime',
-  },
-  {
-    index: '02',
-    eyebrow: 'Cosmofeed / SuperProfile · SaaS',
-    title: 'Scaling creator growth & key accounts',
-    description: 'Led business growth, pre-sales operations and customer success initiatives for a creator-focused SaaS platform.',
-    tags: ['Pre-sales', 'Key accounts', 'Customer growth'],
-    accent: 'blue',
-  },
-  {
-    index: '03',
-    eyebrow: 'Townscript · Enterprise',
-    title: 'Enterprise GTM & event partnerships',
-    description: 'Worked across enterprise sales, strategic accounts, partnerships, CRM and forecasting for large-scale events.',
-    tags: ['Enterprise', 'Events', 'GTM'],
-    accent: 'orange',
-  },
-];
-
 export const insights = [
   { number: '01', title: 'What makes a startup ready for the right investment conversation', label: 'Investment readiness' },
   { number: '02', title: 'Why a strong ecosystem can accelerate founder momentum', label: 'Startup ecosystems' },
