@@ -36,7 +36,7 @@ export const experience: Experience[] = [
     current: true,
   },
   {
-    company: 'Townscript',
+    company: 'Townhall (BookMyShow)',
     role: 'Business & GTM (Enterprise)',
     period: 'Jul 2025 — Mar 2026',
     location: 'APAC · Hybrid',
